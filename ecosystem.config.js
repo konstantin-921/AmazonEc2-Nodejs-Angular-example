@@ -1,8 +1,7 @@
 module.exports = {
   apps: [{
     name: 'AmazonEc2-Nodejs-Angular-example',
-    script: 'npm',
-    args : "start",
+    script: './server.js'
   }],
   deploy: {
     production: {
