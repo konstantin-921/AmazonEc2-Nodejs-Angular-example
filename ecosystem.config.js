@@ -13,7 +13,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ec2-user',
-      host: 'ec2-3-95-158-214.compute-1.amazonaws.com',
+      host: 'ec2-3-93-213-119.compute-1.amazonaws.com',
       key: '~/kostya-key-Virginia.pem',
       ref: 'origin/master',
       repo: 'git@github.com:konstantin-921/AmazonEc2-Nodejs-Angular-example.git',
