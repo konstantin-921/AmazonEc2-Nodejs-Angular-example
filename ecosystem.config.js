@@ -9,7 +9,7 @@ module.exports = {
       script: "npm",
       args: "start"
     }
-  }],
+  ],
   deploy: {
     production: {
       user: 'ec2-user',
