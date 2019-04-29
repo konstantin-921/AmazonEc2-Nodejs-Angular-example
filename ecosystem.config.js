@@ -4,9 +4,10 @@ module.exports = {
     script: './server.js'
   },
   {
-    name: 'new-proc',
-    script: './node_modules/@angular/cli/bin/ng',
-    args: 'serve'
+    name: 'ngserve',
+    script: 'node_modules/@angular/cli/bin/ng',
+    watch: false,
+    args: 'serve --host 4200'
   }],
   deploy: {
     production: {
