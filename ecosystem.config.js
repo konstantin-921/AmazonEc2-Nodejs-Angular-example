@@ -2,12 +2,6 @@ module.exports = {
   apps: [{
     name: 'AmazonEc2-Nodejs-Angular-example',
     script: './server.js'
-  },
-  {
-    name: 'ngserve',
-    script: 'node_modules/@angular/cli/bin/ng',
-    watch: false,
-    args: 'serve --host 4200'
   }],
   deploy: {
     production: {
