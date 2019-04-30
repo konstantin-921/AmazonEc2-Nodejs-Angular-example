@@ -6,7 +6,7 @@ This Angular application is designed to be deployed on an EC2 AWS instance. Usin
 
 These instructions will get you a copy of the project up and running on your local machine for development.
 
-1. giy clone git@github.com:konstantin-921/AmazonEc2-Nodejs-Angular-example.git
+1. ```git clone git@github.com:konstantin-921/AmazonEc2-Nodejs-Angular-example.git```
 2. Bind this repository to your new empty repository on Github
 ```
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
@@ -14,7 +14,7 @@ git push origin master
 ```
 3. Install package
 ```
- npm install -g @angular/cli
+npm install -g @angular/cli
 npm install
 ```
 
@@ -42,4 +42,4 @@ nvm install node
 ### Clone repo and create ssh-keys for EC2 instance
 
 1. Create ssh-keys as specified in the tutorial https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-2. git clone git@github.com:your_app.git
+2. ```git clone git@github.com:your_app.git```
