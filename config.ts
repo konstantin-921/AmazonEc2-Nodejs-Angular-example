@@ -1,3 +1,3 @@
-const port = '54.173.71.216';
+const port = 'localhost';
 
 export default port;
