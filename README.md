@@ -29,17 +29,23 @@ npm install
 ### SSH into your server
 
 1. ```chmod 400 ~/.ssh/whatever-your-key-name-is.pem```
-2. By right click your instance and select Connect we can see Example comand (like ssh -i "your-key-Virginia.pem" ec2-user@ec2-54-173-71-216.compute-1.amazonaws.com). Execude it in command line.
+2. By right click your instance and select Connect we can see Example command:
+```like ssh -i "your-key-Virginia.pem" ec2-user@ec2-54-173-71-216.compute-1.amazonaws.com ```
+Execude it in command line.
 
-### Install NVM and Node on the EC2 instance
+### Install global environment on the EC2 instance
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 source ~/.bashrc
 nvm install node
+npm install -g @angular/cli
+sudo apt-get install nginx
 ```
 
 ### Clone repo and create ssh-keys for EC2 instance
 
 1. Create ssh-keys as specified in the tutorial https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 2. ```git clone git@github.com:USERNAME/REPOSITORY.git```
+
+Next, follow the instructions: https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-2-5fbdea95f8a1
